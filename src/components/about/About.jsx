@@ -36,13 +36,12 @@ const About = () => {
             </article>
           </div>
           <p>
-            Je me presente Touani Hermand Willfried developpeur Web et Mobile
-            Depuis toujours, je suis passionné par les nouvelles technologies et
-            leur capacité à transformer notre quotidien. Mon objectif est de
-            rejoindre une équipe dynamique pour concevoir des solutions
-            innovantes qui répondent à des besoins concrets.Je serais ravi
-            d’échanger avec vous ! n’hésitez pas à me contacter pour discuter
-            d’un projet ou d’une collaboration.
+            My name is Touani Hermand Willfried, a Web and Mobile Developer. I
+            have always been passionate about new technologies and their ability
+            to transform our daily lives. My goal is to join a dynamic team to
+            design innovative solutions that address real-world needs. I would
+            be delighted to connect with you! Feel free to contact me to discuss
+            a project or collaboration
           </p>
 
           <a href="#contact" className="btn btn-primary">
