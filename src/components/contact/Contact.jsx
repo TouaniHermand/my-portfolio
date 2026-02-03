@@ -33,8 +33,8 @@ const Contact = () => {
 
   return (
     <section id="contact">
-      <h5>Get In Touch</h5>
-      <h2>Contact Me</h2>
+      <h5>Me joindre</h5>
+      <h2>En un click</h2>
       <div className="container contact__container">
         <div className="contact__options">
           <article className="contact__option">
@@ -49,16 +49,16 @@ const Contact = () => {
             <h4>Messenger</h4>
             <h5>willfriedtouani</h5>
             <a href="https://www.facebook.com/willfried.touani">
-              Send a message
+              envoyez un message
             </a>
           </article>
 
           <article className="contact__option">
             <BsWhatsapp className="contact__option-icon" />
             <h4>Whatsapp</h4>
-            <h5>(+237)691454161</h5>
-            <a href="https://api.whatsapp.com/send?phone=+237691454161">
-              Send a message
+            <h5>(+33)760064880</h5>
+            <a href="https://api.whatsapp.com/send?phone=+33760064880">
+              envoyez un  message
             </a>
           </article>
         </div>
@@ -67,18 +67,18 @@ const Contact = () => {
           <input
             type="text"
             name="name"
-            placeholder="Your Full Name"
+            placeholder="Votre nom"
             required
           />
-          <input type="email" name="email" placeholder="Your Email" required />
+          <input type="email" name="email" placeholder="Votre email" required />
           <textarea
             name="message"
             rows="7"
-            placeholder="Your Message"
+            placeholder="Votre message"
             required
           ></textarea>
           <button type="submit" className="btn btn-primary">
-            Send Message
+            Envoyer
           </button>
         </form>
       </div>

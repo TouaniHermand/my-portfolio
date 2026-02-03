@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import ME from "../../assets/me-about.jpeg";
+import ME from "../../assets/me-about.jpg";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
@@ -8,8 +8,8 @@ import { VscFolderLibrary } from "react-icons/vsc";
 const About = () => {
   return (
     <section id="about">
-      <h5>Get to know</h5>
-      <h2>About Me</h2>
+      <h5>Decouvrez</h5>
+      <h2>Mon Univers</h2>
 
       <div className="container about__container">
         <div className="about__me">
@@ -21,31 +21,29 @@ const About = () => {
           <div className="about__cards">
             <article className="about__card">
               <FaAward className="about__icon" />
-              <h5>Experience</h5>
-              <small>1+ Years Working</small>
+              <h5>Experiences</h5>
+              <small>Ce que j'ai accompli</small>
             </article>
             <article className="about__card">
               <FiUsers className="about__icon" />
-              <h5>Clients</h5>
-              <small>2 Worldwide</small>
+              <h5>Savoirs-être</h5>
+              <small>Ce qui me définit</small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
-              <h5>Projects</h5>
-              <small>10+ Projects completed</small>
+              <h5>Projets</h5>
+              <small>Mes créations</small>
             </article>
           </div>
           <p>
-            My name is Touani Hermand Willfried, a Web and Mobile Developer. I
-            have always been passionate about new technologies and their ability
-            to transform our daily lives. My goal is to join a dynamic team to
-            design innovative solutions that address real-world needs. I would
-            be delighted to connect with you! Feel free to contact me to discuss
-            a project or collaboration
+            Perfectionniste et engagé je cherche constament à améliorer mon travail et à repousser mes limites
+            Mon parcours m'a permis de développer non seulement des competences techniques, mais aussi un savoir-être fondé sur
+            la rigueur, l'adaptabilité, l'esprit d'équipe et le sens des responsabilités. J'avance avec la conviction que la persévérance et
+            les sacrifices sont essentiels pour atteindre ses objectifs.
           </p>
 
           <a href="#contact" className="btn btn-primary">
-            Let's Talk
+            Me Contacter
           </a>
         </div>
       </div>

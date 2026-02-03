@@ -12,7 +12,7 @@ const data = [
     id: 1,
     image: IMG1,
     title: "full-web-site ",
-    github: "https://github.com/TouaniHermand/full-web-site ",
+    Lien: "https://www.full-expert.com ",
   },
   {
     id: 2,
@@ -49,7 +49,7 @@ const data = [
 const Portfolio = () => {
   return (
     <section id="portfolio">
-      <h5>My Recent Work</h5>
+      <h5>Mes aventures numériques</h5>
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
@@ -61,7 +61,9 @@ const Portfolio = () => {
             <h3>{project.title}</h3>
             <div className="portfolio__item-cta">
               <a href={project.github} className="btn" target="_blank">
-                Github
+                {
+                  project.github ? <p>Github</p> : <p>Lien</p>
+                }
               </a>
             </div>
           </article>

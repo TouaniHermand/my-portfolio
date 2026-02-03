@@ -27,7 +27,7 @@ const Footer = () => {
           <a href="#portfolio">Portfolio</a>
         </li>
         <li>
-          <a href="#testimonials">Testimonials</a>
+          <a href="#testimonials">Portfolio</a>
         </li>
         <li>
           <a href="#contact">Contact</a>
@@ -47,7 +47,7 @@ const Footer = () => {
       </div>
 
       <div className="footer__copyright">
-        <small>&copy; portfolio. All rights reserved.</small>
+        <small>&copy; Mon portfolio.</small>
       </div>
     </footer>
   );

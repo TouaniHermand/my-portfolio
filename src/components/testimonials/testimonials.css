@@ -1,0 +1,24 @@
+#testimonials {
+  padding: 1rem 0;
+    text-align: justify;
+}
+
+.testimonials__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.testimonial {
+  background: var(--color-bg-variant);
+  padding: 2rem;
+  border-radius: 1.5rem;
+  border: 0.1em solid var(--color-primary);
+}
+
+.testimonial h3 {
+  color: var(--color-primary);
+  margin-bottom: 1rem;
+  text-align: center;
+}

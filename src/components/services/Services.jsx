@@ -5,91 +5,89 @@ import { BiCheck } from "react-icons/bi";
 const Services = () => {
   return (
     <section id="services">
-      <h5>What I Offert</h5>
-      <h2>Services</h2>
+      <h5>Ce que j'ai appris</h5>
+      <h2>Savoirs-faire</h2>
       <div className="container services__container">
         <article className="service">
           <div className="service__head">
-            <h3>Web development</h3>
+            <h3>dévélopement Web</h3>
           </div>
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Creation of responsive and interactive web sites</p>
+              <p>Developpement des interfaces Web (gestion de l'état,composants Réutilisables..)</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
               <p>
-                Development of web applications using frameworks such a React js
-                and Vue js
+                Développer et Sécuriser des API REST
               </p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
               <p>
-                Creation of API's to enable integration with other applications
+                Implémenter l'authentification et la gestion des utilisateurs
               </p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Integration of database to store and retrieve data</p>
+              <p>Assurer la compatibilité cross-browser et mobile</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Optimisation of web application performance</p>
+              <p>Intégration des maquettes en respectant la charte graphique</p>
             </li>
           </ul>
         </article>
 
         <article className="service">
           <div className="service__head">
-            <h3>Mobile development</h3>
+            <h3>dévélopement Mobile </h3>
           </div>
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Creation of mobile applications for Android ans iOS</p>
+              <p>Créer des composants réutilisables</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
               <p>
-                Development of hybrid applications using frameworks such as
-                React Native
+                Gerer l'état de l'application et la synchronisation avec le back-end
               </p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
               <p>
-                Creation of API's to enable integration with other applications
+                Integrer des API REST pour récupérer les données 
               </p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Creation of intuitive and responsive User interfaces</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Optimisation of mobile application performance</p>
+              <p>Mettre en place des notifications push et autres services de l'appication</p>
             </li>
           </ul>
         </article>
 
         <article className="service">
           <div className="service__head">
-            <h3>Additional Sevices</h3>
+            <h3>Méthodologies Agiles</h3>
           </div>
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Design and prototyping</p>
+              <p>Rédiger et gérer des user stories et tickets dans Jira</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Maintenance and updates of existing applications</p>
+              <p>Participer aux cérémonies Agile: daily meeting, sprint-planing, sprint review</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Client training and support for application</p>
+              <p>Estimer les tâches et planifier les sprints avec l'équipe</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Collaborer étroitement avec les designer, testeurs et autres développeurs</p>
             </li>
           </ul>
         </article>
