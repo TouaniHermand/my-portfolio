@@ -8,6 +8,8 @@ import Portfolio from "./components/portfolio/Portfolio";
 import Testimonials from "./components/testimonials/Testimonials";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const App = () => {
   return (
@@ -21,6 +23,9 @@ const App = () => {
       <Testimonials/>
       <Contact />
       <Footer />
+      <ToastContainer position="top-right" autoClose={3000} theme="dark"
+      style={{ zIndex: 9999 }}/>
+      
     </>
   );
 };

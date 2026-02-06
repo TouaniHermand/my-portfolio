@@ -60,7 +60,7 @@ const Portfolio = () => {
             </div>
             <h3>{project.title}</h3>
             <div className="portfolio__item-cta">
-              <a href={project.github} className="btn" target="_blank">
+              <a href={project.github ? project.github : project.Lien} className="btn" target="_blank">
                 {
                   project.github ? <p>Github</p> : <p>Lien</p>
                 }

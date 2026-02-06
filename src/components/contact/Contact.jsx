@@ -5,6 +5,7 @@ import { RiMessengerLine } from "react-icons/ri";
 import { BsWhatsapp } from "react-icons/bs";
 import emailjs from "emailjs-com";
 import { useRef } from "react";
+import { toast } from "react-toastify";
 
 const Contact = () => {
   const form = useRef();
@@ -21,10 +22,11 @@ const Contact = () => {
       )
       .then(
         () => {
-          alert("SUCCESS!");
+        toast.success("Message envoyé avec succès ");
+        e.target.reset();
         },
-        (error) => {
-          alert("FAILED...", error.text);
+        () => {
+          toast.error("Échec de l’envoi . Réessayez plus tard.");
         }
       );
 
